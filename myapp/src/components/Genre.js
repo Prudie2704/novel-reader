@@ -12,7 +12,7 @@ class Genre extends React.Component {
       return (
         <div className="genre">
           {this.state.books.map(book => (
-            <Book key={book.id} book={book} onAddToArmy={this.props.onAddToArmy} />
+            <book key={book.id} book={book} onAddToArmy={this.props.onAddToArmy} />
           ))}
         </div>
       );
