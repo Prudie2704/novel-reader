@@ -5,6 +5,7 @@ import App from './App';
 import Book from './components/Book.js'
 import Genre from './components/Genre.js'
 import Writer from './components/Writer.js'
+import Search from './components/Search.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
