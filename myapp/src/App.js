@@ -40,8 +40,8 @@ function App() {
   return (
     <div>
     <h2>Novel Reader</h2>
-    <SearchForm onSearching={handleOnSearch}/>
-    <Form onSubmission={handleUpdateOnSubmission}/>
+    <Genre onSearching={handleOnSearch}/>
+    <Writer onSubmission={handleUpdateOnSubmission}/>
     <Novels novels={filterNovels} />
     
     </div>
